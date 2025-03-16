@@ -1,55 +1,39 @@
-# Калькулятор на Java
+Calculator in Java
 
-## Описание
+Description
+This project is a console-based calculator implemented in Java. It supports basic arithmetic operations and parentheses handling.
 
-Этот проект представляет собой консольный калькулятор, реализованный на Java. Он поддерживает основные арифметические операции и работу со скобками.
+Functionality
 
-## Функционал
+Addition (+)
+Subtraction (-)
+Multiplication (*)
+Division (/)
+Exponentiation (^)
+Parentheses (()) for grouping operations
+Used Data Structures
 
-- Сложение (`+`)
-- Вычитание (`-`)
-- Умножение (`*`)
-- Деление (`/`)
-- Возведение в степень (`^`)
-- Поддержка скобок (`()`) для группировки операций
+Stack for handling operators and operands
+Scanner for user input
+Running the Project
 
-## Используемые структуры данных
-
-- `Stack` для обработки операторов и операндов
-- `Scanner` для пользовательского ввода
-
-## Запуск проекта
-
-### 1. Компиляция кода:
-
-```sh
+Compile the code:
+bash
 javac Calculator.java
-```
-
-### 2. Запуск программы:
-
-```sh
+Run the program:
+bash
 java Calculator
-```
+Input an expression:
+Example:
+Enter expression: (3 + 5) * 2
+Result: 16.0
+Test Files
+The repository contains .txt files with sample expressions that can be used for testing. These files can be opened in any editor to check the calculator's functionality.
 
-### 3. Ввод выражения:
+Improvements
 
-Пример:
+Support for variables (e.g., x = 5, y = x + 2)
+Enhanced error handling
+Graphical User Interface (GUI)
 
-```
-Введите выражение: (3 + 5) * 2
-Результат: 16.0
-```
-
-## Тестовые файлы
-
-В репозитории есть файлы `.txt` с примерами выражений, которые можно использовать для тестирования. Их можно открыть в редакторе и проверить работу калькулятора.
-
-## Улучшения
-
-- Возможность работы с переменными (`x = 5`, `y = x + 2`)
-- Расширенный обработчик ошибок
-- Графический интерфейс (GUI)
-
-##
 
